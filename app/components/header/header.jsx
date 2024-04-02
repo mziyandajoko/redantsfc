@@ -19,9 +19,10 @@ function header() {
            </div>
             <div className="flex flex-row justify-between text-l"> 
               
-              <Link href="#" className='pr-5'>ABOUT US</Link>
+              <Link href="pages/about/" className='pr-5'>ABOUT</Link>
               <Link href="#" className='pr-5'>CLUB PHOTOS</Link>
-              <Link href="#" className='pr-5'>CONTACT US</Link>
+              <Link href='mailto:joko.redantsfc@gmail.com' target={'_blank'} 
+            className='hover:bg-light hover:text-dark p-42'>Contact US</Link>
 
             
             </div>
